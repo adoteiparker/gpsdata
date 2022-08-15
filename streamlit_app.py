@@ -24,7 +24,6 @@ import branca.colormap as cm
 import datetime as dt
 import urllib
 from PIL import Image
-from st_aggrid import AgGrid
 
 import folium
 from folium import plugins
