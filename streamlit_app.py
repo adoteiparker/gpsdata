@@ -63,7 +63,7 @@ def get_data():
     # df['City'].fillna('UNKNOWN', inplace=True)
     # df['Region'].fillna('UNKNOWN', inplace=True)
     
-    rgdf = geopandas.read_file('Test.zip')
+    rgdf = geopandas.read_file('Nigeria_Shape.zip')
 
     return df, rgdf
 
