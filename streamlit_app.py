@@ -46,8 +46,8 @@ def get_data():
 
     return df, rgdf
 
-
-data, regions_gdf = get_data()
+data1, regions_gdf1 = get_data()
+data, regions_gdf = data1.copy(), regions1_gdf.copy()
 
 
 
